@@ -1,6 +1,8 @@
 # APEX PE Scanner
 A small utility that finds users who are capable of privilege escalation using APEX.
 
+The PE abuses the fact that APEX Triggers run in system mode. A full technical explanation can be found [here](https://cloudsecurityalliance.org/blog/2020/07/16/abusing-privilege-escalation-in-salesforce-using-apex/).
+
 ## How to run
 
 The utility requires a username, a password and the security token of a Salesforce user.
